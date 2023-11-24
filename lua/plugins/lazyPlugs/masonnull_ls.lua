@@ -4,8 +4,8 @@ return {
   dependencies = {
     "williamboman/mason.nvim",
     "jose-elias-alvarez/null-ls.nvim",
-  },
+ },
   config = function()
-    require("plugin_config.mason_null_ls") -- require your null-ls config here (example below)
+    require("plugin_config.mason_null_ls")
   end,
 }
